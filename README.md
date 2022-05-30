@@ -3,7 +3,8 @@
 ## 二、将在官网下载的模型fcn_s101-d8_512x1024_80k_cityscapes_20200807_140631-f8d155b3.pth放入mmsegmentation-master文件夹内。
 ## 三、开始测试
 ### config_file指向模型对应的网络结构
-```config_file = 'configs/resnest/fcn_s101-d8_512x1024_80k_cityscapes.py'
+```
+config_file = 'configs/resnest/fcn_s101-d8_512x1024_80k_cityscapes.py'
 ```
 ### checkpoint_file指向模型地址
 ```
