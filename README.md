@@ -9,6 +9,7 @@
 ```
 checkpoint_file = 'fcn_s101-d8_512x1024_80k_cityscapes_20200807_140631-f8d155b3.pth'
 ```
+
 ### 逐帧测试原视频并生成图片
 ```
 video = mmcv.VideoReader('video.mp4')  # 下载好的行车视频
