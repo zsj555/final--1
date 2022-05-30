@@ -1,7 +1,7 @@
 # final--1
 ## 一、将网上下载好的行车视频命名为video.mp4放入mmsegmentation-master文件夹内。
 ## 二、将在官网下载的模型fcn_s101-d8_512x1024_80k_cityscapes_20200807_140631-f8d155b3.pth放入mmsegmentation-master文件夹内。
-## 三、开始测试
+## 三、开始测试(test.py)
 ### config_file指向模型对应的网络结构
 ```
 config_file = 'configs/resnest/fcn_s101-d8_512x1024_80k_cityscapes.py'
